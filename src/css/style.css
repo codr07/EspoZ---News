@@ -487,6 +487,41 @@ body::-moz-scrollbar {
   text-shadow: 0 0 5px var(--sqad-buster-purple-light);
 }
 
+.bubble1-1 , .bubble2-1{
+  position: absolute;
+  background: var(--sqad-buster-purple-light);
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+}
+
+.bubble1-1{
+  transform: translate(550px, -30px);
+}
+.bubble2-1{
+  transform: translate(-910px, -160px);
+}
+
+.bubble1-2{
+  transform: translate(610px, -30px);
+}
+.bubble2-2{
+  transform: translate(-650px, -90px);
+  z-index: 10;
+}
+
+
+.bubble1-2 , .bubble2-2{
+  position: absolute;
+  background: var(--sqad-buster-purple-light);
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--background-dark);
+  border-radius: 50%;
+}
+
+
+
 .info1{
   width: 100%;
   height: 50vh;
@@ -503,6 +538,57 @@ body::-moz-scrollbar {
   align-items: center;
   gap: 30px;
   justify-content: space-around;
+}
+
+.espoz-info{
+  height: 150vh;
+  background: #0c0c0c;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text);
+  flex-direction: column;
+}
+
+.espoz-info h1{
+  font-size: 50px;
+}
+
+.espoz-info span{
+  color: var(--sqad-buster-purple-light);
+  text-shadow: 0 0 15px rgba(251, 4, 251, 0.716);
+}
+
+.espoz-info .row1 , .espoz-info .row2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  gap: 50px;
+}
+
+.card-info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 0 7px 5px rgba(251, 4, 251, 0.508);
+  padding: 2rem;
+  height: 50vh;
+  width: 500px;
+  border-radius: 30px;
+}
+
+.card-info i{
+  font-size: 50px;
+  color: var(--sqad-buster-purple-light);
+  text-shadow: 0 0 10px rgba(251, 4, 251, 0.742);
+}
+
+.card-info .textbox{
+  font-size: 30px;
+  text-align: center;
 }
 
 .founders{
