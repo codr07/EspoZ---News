@@ -1,0 +1,734 @@
+/*css by CODR*/
+
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Arcade*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/*poopins*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Courier Prime*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/*Hacktoberfest*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap'); /*Ubuntu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Michroma&display=swap'); /*COD*/
+
+/*valo Starts*/
+@font-face {
+  font-family: valo;
+  src: url('/src/fonts/valorant/Valorant.ttf');
+}
+/*Valo fonts ends*/
+
+/*Hacktoberfest Font Start*/
+
+.hacktoberfest {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+}
+
+
+/*Hacktoberfest Font Ends*/
+
+/*Courier Prime Starts*/
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*Courier Prime Ends*/
+
+/*Arcade Starts*/
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.press-start-2p-bold {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Arcade Ends*/
+/*Spiderman Font Starts*/
+@font-face {
+  font-family: 'spider',monospace;
+  src: url('/src/fonts/comback-home-font/CombackHomeRegular-jEMd9.ttf') format("ttf");
+}
+
+
+/*Spiderman Font Ends*/
+/*EA Font Starts*/
+
+@font-face {
+  font-family: 'ea', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/src/fonts/comback-home-font/CombackHomeRegular-jEMd9.ttf') format("ttf");
+}
+
+
+/*Debug Starts*/
+@font-face {
+  font-family: 'debug', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/src/fonts/debug-font/DebugFreeTrial-MVdYB.otf') format("otf");
+}
+
+
+
+/*Debug Ends*/
+/*Samurai Starts*/
+@font-face {
+  font-family: 'samurai', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/src/fonts/samurai-blast-font/SamuraiBlast-YznGj.ttf') format("ttf");
+}
+
+
+/*Samurai ends*/
+/*Mighty Sol Starts*/
+@font-face {
+  font-family: 'mighty-souly',monospace;
+  src: url('/src/fonts/mighty-souly-font/MightySouly-lxggD.ttf') format("ttf");
+}
+
+
+
+/*Mighty Sol fonts ends*/
+/*love Glitch Starts*/
+@font-face {
+  font-family: 'lovely-glutch', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/src/fonts/love-glitch-font/LoveGlitchPersonalUseRegular-vmEyA.ttf') format("ttf");
+}
+
+
+/*Love Glitch ends*/
+
+/*apex Starts*/
+@font-face {
+  font-family: 'apex', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/src/fonts/Apex-Font/Apex.otf') format("otf");
+}
+
+@font-face {
+  font-family: 'apex-bold', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/src/fonts/Apex-Font/Apex.otf') format("otf");
+}
+
+
+/*apex fonts ends*/
+/*cod Starts*/
+
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*cod ends*/
+/*Ubuntu Starts*/
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/*Ubuntu Ends*/
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --text:#fff;
+  --background-dark: #000;
+  --navbar-orange: #ff914d;
+  --navbar-purple:#8c52ff;
+  --hero-btn2:#ffd6bc;
+  --sqad-buster-btn:#cb6ce6;
+  --valo-red:#d92344;
+  --alane-wake-btn:#b00c0c;
+  --codm-text-border:#806600;
+  --codm-btn:#ffde59;
+  --highlight-green:#7ed957;
+  --sqad-buster-purple-light:rgb(255, 102, 196);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Space Grotesk";
+  background: #000;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body::-moz-scrollbar {
+  display: none;
+}
+
+
+.nav{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0px -10px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.branding{
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 14vw;
+  gap: 10px;
+}
+
+.nav img{
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+
+.name{
+  background: none;
+  color: var(--text);
+  font-size: 28px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.hori-devider{
+  width: 5px;
+  height: 30px;
+  background: var(--text);
+}
+
+
+.mail{
+  padding: .3rem .5rem;
+  background: white;
+  clip-path: polygon(0% 0%,80% 0%, 100% 30%,  100% 100%, 0% 100%);
+  border-radius: 3px;
+  width: 80px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: .3s ease;
+}
+
+.mail:hover{
+  border: 1px solid rgb(255, 255, 255);
+  background: none;
+  i{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+}
+
+.mail i{
+  color: var(--background-dark);
+  transition: .3s ease;
+}
+
+.mail a{
+  text-decoration: none;
+  color: var(--background-dark);
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  transition: .3s ease;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 30%;
+  filter: brightness(150%),
+  contrast(110%),
+  saturate(120%);
+}
+
+.hero-content{
+  position: absolute;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  position: sticky;
+  top: 200px;
+  margin-bottom: -100vh;
+}
+
+.welcome{
+  display: flex;
+  font-size: 250px;
+  font-family: valo;
+  text-shadow: 0 0 15px #ffffff82;
+}
+
+.to{
+  font-family: 'samurai', monospace;
+  font-size: 50px;
+  position: absolute;
+  transform: translateY(-70px);
+  font-weight: 600;
+}
+
+.espoz{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 80px;
+  color: var(--valo-red);
+}
+.espoz2{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 80px;
+  position: absolute;
+  transform: translate(-5px,135px);
+}
+
+.scroll-spacer{
+  height: 150vh;
+}
+
+.about{
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about img{
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(110%);
+}
+
+#lense-flair{
+  mix-blend-mode: screen;
+  width: 250px;
+}
+
+.about-content{
+  position: absolute;
+  transform: translate(0, -250px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  height: 100%;
+  width: 100%;
+  padding-top: 30rem;
+}
+
+.qn{
+  border: 1px solid var(--sqad-buster-purple-light);
+  color: var(--text);
+  padding: 4rem 3rem;
+  width: 400px;
+  height: 100px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+  gap: 10px;
+}
+
+.upper , .lower{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+
+.upper .qn{
+  animation: leftshow both ease-in;
+  animation-timeline: view();
+}
+@keyframes leftshow {
+  0%{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  10%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.qn{
+  animation: pop both ease-in;
+  animation-timeline: view();
+}
+@keyframes pop {
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  10%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.lower .qn{
+  animation: rightshow both ease-in;
+  animation-timeline: view();
+}
+@keyframes rightshow {
+  0%{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  5%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.about h3{
+  font-size: 20px;
+}
+
+.about span{
+  font-weight: 600;
+  color: var(--sqad-buster-purple-light);
+  text-shadow: 0 0 5px var(--sqad-buster-purple-light);
+}
+
+.info1{
+  width: 100%;
+  height: 50vh;
+  background: #7ed957;
+  display: flex;
+  align-items: center;
+}
+.info1 .marquee{
+  color: #000;
+  font-size: 100px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.founders{
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  gap: 10vh;
+  padding: 1rem;
+}
+
+.founders img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 0 0 15px 1px var(--hero-btn2);
+}
+
+.row1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.ritam , .praf , .codr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid var(--sqad-buster-purple-light);
+  padding: 2rem;
+  width: 30vw;
+}
+
+.founders .social{
+  border: 1px solid var(--navbar-purple);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 5px 20px;
+  width: 20vw;
+  box-shadow: 0 0 7px 1px var(--sqad-buster-btn);
+}
+
+.founders .social a{
+  color: var(--sqad-buster-purple-light);
+  font-size: 30px;
+  transition: .3s ease;
+}
+
+.founders a:hover{
+  color: var(--sqad-buster-btn);
+  cursor:grab;
+}
+
+.ritam{
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  transition: .2s ease;
+}
+
+.ritam .social{
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.ritam:hover{
+  
+  box-shadow: -10px 10px 0px 2px var(--sqad-buster-purple-light);
+}
+
+.praf{
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: .2s ease;
+}
+
+.praf .social{
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.praf:hover{
+  box-shadow: 10px 10px 0px 2px var(--sqad-buster-purple-light);
+}
+
+
+.codr{
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  transition: .2s ease;
+}
+
+.codr .social{
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+.codr:hover{
+  box-shadow: 0px 12px 0px 6px var(--sqad-buster-purple-light);
+}
+
+.contact{
+  width: 100%;
+  height: 50vh;
+  background: #53387a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+}
+
+.founders .more{
+  color: var(--valo-red);
+  font-size: 20px;
+  position: absolute;
+  transform: translate(35px,-115px);
+  transition: .2s ease-in-out;
+}
+
+.founders .more:hover{
+  color: var(--text);
+  cursor: help;
+}
+
+.more:hover::after{
+  content: attr(data-tooltip);
+  position: absolute;
+  color: var(--background-dark);
+  background: var(--text);
+  padding: .2rem;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  width: 12vw;
+  transform: translateY(-30px);
+}
+
+.founders .position{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.news-board{
+  width: 100%;
+  height: 150vh;
+  background: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.news-board h1{
+  font-size: 100px;
+  color: var(--text);
+  text-shadow: 0 0 20px #ffffff6a;
+}
+
+.discord-section , .telegram-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.discord-section img , .telegram-section img{
+  width: 300px;
+  height: 300px;
+}
+.telegram-section{
+  flex-direction: row-reverse;
+}
+
+.news-board .text{
+  font-size: 30px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.news-board .text a{
+  text-decoration: none;
+  color: var(--sqad-buster-purple-light);
+  text-shadow: 0 0 10px rgba(251, 4, 251, 0.757);
+}
+
+.empty{
+  color: var(--text);
+  padding: 4rem 3rem;
+  width: 400px;
+  height: 100px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+}
+
+
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    clip-path: polygon(0% 0%,60% 0%, 100% 40%,  100% 100%, 0% 100%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
