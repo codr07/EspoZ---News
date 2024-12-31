@@ -219,7 +219,7 @@ body::-moz-scrollbar {
 
 .nav {
   height: 50px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -943,5 +943,65 @@ body::-moz-scrollbar {
   }
   100%{
     opacity: 0;
+  }
+}
+
+@media (max-width: 1377px) {
+  .nav{
+    width: 100vw;
+  }
+  .welcome p{
+    font-size: 200px;
+  }
+  .espoz2{
+    transform: translateY(105px);
+  }
+}
+
+@media (max-width: 1250px) {
+  .nav{
+    width: 98vw;
+  }
+  .welcome p{
+    font-size: 200px;
+  }
+  .espoz2{
+    transform: translateY(105px);
+  }
+}
+
+@media (max-width: 1090px) {
+  .nav , .hero , .about , .info1 , .espoz-info , .founders , .news-board , .alert , .footer{
+    display: none;
+  }
+  .dis1090px{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: var(--text);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .dis1090px span{
+    color: var(--sqad-buster-purple-light);
+  }
+}
+
+@media (max-width: 375px) {
+
+  #body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dis1090px{
+    height: 50vh;
+  }
+  .dis1090px h1{
+    font-size: 30px;
   }
 }
