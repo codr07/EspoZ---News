@@ -91,3 +91,4 @@ const lenis = new Lenis({
       scrub:1.5,
     }
   })
+  
