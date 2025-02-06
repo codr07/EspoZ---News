@@ -1577,6 +1577,109 @@ body::-moz-scrollbar {
   }
 }
 
+@media (max-width: 695px){
+  .tablet-views .body .nav{
+    display: none;
+  }
+
+  .tablet-views .hero{
+    margin-top: 0;
+  }
+
+  .tablet-views .hero .welcome p{
+    font-size: 70px;
+  }
+
+  .tablet-views .hero .to{
+    transform: translateY(18px);
+    font-size: 15px;
+  }
+
+  .tablet-views .discord-section , 
+  .tablet-views .telegram-section{
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .tablet-views .discord-section .text img, 
+  .tablet-views .telegram-section .text img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .tablet-views .espoz2{
+    transform: translateY(95px);
+  }
+
+  .tablet-views .espoz , .tablet-views .espoz2{
+    font-size: 50px;
+  }
+
+  .tablet-views .about h3 , .tablet-views .about p{
+    font-size: 10px;
+  }
+
+  .tablet-views .info1{
+    display: none;
+  }
+
+  .tablet-views .espoz-info .row1 , .tablet-views .espoz-info .row2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .tablet-views .espoz-info .row1 .card-info, .tablet-views .espoz-info .row2 .card-info{
+    height: 30vh;
+    width: 300px;
+  }
+  
+  .tablet-views .espoz-info{
+    gap: 30px;
+  }
+
+  .tablet-views .espoz-info h1{
+    font-size: 20px;
+  }
+
+  .tablet-views .founders .row1{
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .tablet-views .news-board h1{
+    font-size: 30px;
+  }
+
+  .tablet-views .founders #ritam , .tablet-views .founders #praf , .tablet-views .founders #codr{
+    width: 300px;
+  }
+
+  .tablet-views .founders #ritam .social, .tablet-views .founders #praf .social, .tablet-views .founders #codr .social{
+    width: 250px;
+  }
+
+  .tablet-views .alert , .tablet-views .alert span{
+    font-size: 15px;
+  }
+  .tablet-views .alert span{
+    width: 50%;
+    font-size: 10px;
+  }
+
+  .tablet-views .footer .upside{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 350px;
+    transform: translateX(-90px);
+  }
+  .tablet-views .footer {
+    align-items: center;
+  }
+}
+
 @media (max-width: 430px){
   .tablet-views .body .nav{
     display: none;
@@ -1608,6 +1711,109 @@ body::-moz-scrollbar {
 
   .tablet-views .espoz2{
     transform: translateY(95px);
+  }
+
+  .tablet-views .espoz , .tablet-views .espoz2{
+    font-size: 50px;
+  }
+
+  .tablet-views .about h3 , .tablet-views .about p{
+    font-size: 10px;
+  }
+
+  .tablet-views .info1{
+    display: none;
+  }
+
+  .tablet-views .espoz-info .row1 , .tablet-views .espoz-info .row2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .tablet-views .espoz-info .row1 .card-info, .tablet-views .espoz-info .row2 .card-info{
+    height: 30vh;
+    width: 300px;
+  }
+  
+  .tablet-views .espoz-info{
+    gap: 30px;
+  }
+
+  .tablet-views .espoz-info h1{
+    font-size: 20px;
+  }
+
+  .tablet-views .founders .row1{
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .tablet-views .news-board h1{
+    font-size: 30px;
+  }
+
+  .tablet-views .founders #ritam , .tablet-views .founders #praf , .tablet-views .founders #codr{
+    width: 300px;
+  }
+
+  .tablet-views .founders #ritam .social, .tablet-views .founders #praf .social, .tablet-views .founders #codr .social{
+    width: 250px;
+  }
+
+  .tablet-views .alert , .tablet-views .alert span{
+    font-size: 15px;
+  }
+  .tablet-views .alert span{
+    width: 50%;
+    font-size: 10px;
+  }
+
+  .tablet-views .footer .upside{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 350px;
+    transform: translateX(-90px);
+  }
+  .tablet-views .footer {
+    align-items: center;
+  }
+}
+
+@media (max-width: 380px){
+  .tablet-views .body .nav{
+    display: none;
+  }
+
+  .tablet-views .hero{
+    margin-top: 0;
+  }
+
+  .tablet-views .hero .welcome p{
+    font-size: 50px;
+  }
+
+  .tablet-views .hero .to{
+    transform: translateY(19px);
+    font-size: 15px;
+  }
+
+  .tablet-views .discord-section , 
+  .tablet-views .telegram-section{
+    flex-direction: column;
+    padding: 5rem;
+  }
+  .tablet-views .discord-section .text img, 
+  .tablet-views .telegram-section .text img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .tablet-views .espoz2{
+    transform: translateY(80px);
   }
 
   .tablet-views .espoz , .tablet-views .espoz2{
